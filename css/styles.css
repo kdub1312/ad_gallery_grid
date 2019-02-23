@@ -5,6 +5,11 @@
     grid-gap: 15px;
     align-items: center;
 }
+/*fix spacing on vimeo iframe embeds*/
+.gal-grid iframe {
+    height: auto;
+    margin-bottom: 0;
+}
 @media screen and (min-width: 768px) {
     .gal-grid {
         grid-template-columns: repeat(3, 1fr);
